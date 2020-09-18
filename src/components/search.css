@@ -1,0 +1,26 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.search-input {
+  width: 80%;
+  height: 30px;
+  border: none;
+}
+
+.search-input:active,
+.search-input:focus {
+  border: none;
+}
+
+.search-button {
+  width: 20%;
+  height: 30px;
+  background-color: #FFE81F;
+  font-size: 1.25em;
+  border: none;
+  border-left: 2px solid black;
+}
